@@ -3186,3 +3186,77 @@ body {
     height: 40px;
   }
 }
+
+/* ---------- advertising contact (above the footer) ---------- */
+
+.ad-contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  width: min(1240px, calc(100% - 2 * clamp(16px, 4vw, 48px)));
+  margin: clamp(48px, 7vw, 88px) auto 0;
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--glass-border));
+  border-radius: var(--radius-lg);
+  background: color-mix(in srgb, var(--accent) 6%, var(--glass));
+  padding: 22px 26px;
+}
+
+.ad-contact h2 {
+  margin: 0 0 4px;
+  color: var(--accent-text);
+  font-size: 18px;
+}
+
+.ad-contact p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.ad-contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.ad-contact-links a {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--glass-border);
+  border-radius: 999px;
+  background: var(--glass);
+  color: var(--ink);
+  padding: 0 16px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: border-color 140ms ease, color 140ms ease;
+}
+
+.ad-contact-links a:hover {
+  border-color: var(--accent);
+  color: var(--accent-text);
+}
+
+.ad-contact-links svg {
+  width: 17px;
+  height: 17px;
+}
+
+.ad-contact + .site-footer {
+  margin-top: 14px;
+}
+
+@media (max-width: 620px) {
+  .ad-contact-links,
+  .ad-contact-links a {
+    width: 100%;
+  }
+
+  .ad-contact-links a {
+    justify-content: center;
+  }
+}

@@ -104,6 +104,27 @@ export default async function LocaleLayout({ children, params }: Props) {
       </head>
       <body>
         {children}
+        {/* Advertising contact, right above the footer on every page. */}
+        <section className="ad-contact" aria-labelledby="ad-contact-title">
+          <div>
+            <h2 id="ad-contact-title">{t.adTitle}</h2>
+            <p>{t.adCopy}</p>
+          </div>
+          <div className="ad-contact-links">
+            <a href="https://t.me/Abdujabborovmurod" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M21 4.5 2.9 11.4c-.9.4-.9 1.6.1 1.9l4.5 1.4 1.7 5.3c.2.7 1.1.9 1.6.4l2.5-2.3 4.6 3.4c.6.4 1.4.1 1.6-.6L22.2 5.6c.2-.8-.5-1.4-1.2-1.1Z" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" />
+              </svg>
+              @Abdujabborovmurod
+            </a>
+            <a href="tel:+998887450522">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" />
+              </svg>
+              +998 88 745 05 22
+            </a>
+          </div>
+        </section>
         <footer className="site-footer">
           <div className="footer-brand">
             <span className="footer-mark">
