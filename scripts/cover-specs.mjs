@@ -64,6 +64,16 @@ export const coverSpecs = [
   uz("ozbekistonda-aining-yangi-yuzlari-hozirdan-kimni-tinglash-kerak", "founders", "AI YANGI YUZLARI", "hozirdan kimni tinglash kerak", "people"),
 
   // ---- mnenie ----
+  ru("ai-agenty-dlya-biznesa", "market", "AI-АГЕНТЫ", "агенты для бизнеса · разбор", "nodes"),
+  uz("biznes-uchun-ai-agentlar", "market", "AI AGENTLAR", "biznes uchun agentlar · tahlil", "nodes"),
+  ru("startap-v-odinochku-s-ii", "founders", "СОЛО-СТАРТАП", "один основатель и ИИ · разбор", "people"),
+  uz("bir-kishilik-startap-ai", "founders", "YOLG'IZ ASOSCHI", "bitta asoschi va AI · tahlil", "people"),
+  ru("pochemu-startapy-provalivayutsya", "founders", "ПРОВАЛ СТАРТАПА", "product-market fit · монетизация", "gauge"),
+  uz("startaplar-nega-yiqiladi", "founders", "STARTAP XATOLARI", "product-market fit · monetizatsiya", "gauge"),
+  ru("ai-edinorog-uzbekistan", "market", "AI-ЕДИНОРОГ", "рынок · кадры · инвестиции", "growth"),
+  uz("ozbekiston-ai-unicorn", "market", "AI UNICORN", "bozor · kadrlar · investitsiyalar", "growth"),
+  ru("investicii-v-ai-startapy", "market", "ИНВЕСТИЦИИ В AI", "бизнес-модели · преимущества", "coins"),
+  uz("ai-startaplarga-investitsiya", "market", "AI INVESTITSIYA", "biznes-modellar · ustunliklar", "coins"),
   ru("kontrol-kachestva-zvonkov-ai", "mnenie", "КОНТРОЛЬ ЗВОНКОВ", "ручная выборка или анализ всех звонков", "wave"),
   uz("qongiroqlar-sifati-nazorati-ai", "mnenie", "QO'NG'IROQ NAZORATI", "qo'lda tanlash yoki barcha qo'ng'iroq tahlili", "wave"),
   ru("pochemu-slivayutsya-lidy", "mnenie", "СЛИВ ЛИДОВ", "скорость ответа · дисциплина лидов", "leak"),
